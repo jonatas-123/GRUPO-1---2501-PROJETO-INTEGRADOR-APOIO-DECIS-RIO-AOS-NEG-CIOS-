@@ -31,14 +31,17 @@ Criar dashboards analíticos.
 Controlar e rastrear o progresso do projeto, facilitando a visualização de padrões e indicadores importantes.
 
 ## Navicat
-Ferramenta gráfica utilizada para gerenciar o banco de dados MySQL de forma prática e visual. 
+nta gráfica utilizada para gerenciar o banco de dados MySQL de forma prática e visual. 
 
 - Criação das tabelas e inserção de dados.
 - Geração de dois gráficos com o objetivo de testar o gerenciamento de integração entre os dados do banco e a ferramenta.
 Além dessas, outras tecnologias que normalmente são consideradas nesta etapa e podem complementar o projeto incluem:
 
-## Git e Markdown
-- ! Descrever
+## Git
+Sistema de controle de versão distribuído, utilizado para registrar o histórico das alterações no projeto. Permite colaboração entre diferentes integrantes da equipe, criação de ramificações (branches) para testes ou novas funcionalidades, e recuperação de versões anteriores.
+
+## Markdown
+Linguagem de marcação leve utilizada para documentação técnica do projeto. Sua sintaxe simples permite escrever documentos estruturados como arquivos README, instruções de uso, manuais técnicos e relatórios, mantendo a legibilidade tanto em editores de texto quanto em visualizadores como o GitHub.
 
 # 4. Detalhamento Técnico
 Esta etapa tem como objetivo documentar tecnicamente todas as ações e decisões tomadas durante o desenvolvimento do projeto, facilitando a manutenção, auditoria e entendimento por outros membros da equipe ou stakeholders.
@@ -61,6 +64,17 @@ Esta etapa tem como objetivo documentar tecnicamente todas as ações e decisõe
 - Tabelas criadas com base na estrutura da planilha, mantendo os tipos de dados adequados (ex: `VARCHAR` para textos, `DATE` para datas).
 - Definição de `id` como chave primária com auto-incremento no MySQL.
 - Utilização de comandos SQL como `CREATE TABLE` e `INSERT INTO` com os dados tratados.
+
+## Ferramentas de versionamento e documentação
+### Git: utilizado para versionar os scripts SQL, scripts de ETL (caso existam) e arquivos de documentação. As práticas comuns incluem:
+Commits frequentes com mensagens descritivas.
+Uso de branches para desenvolver novas funcionalidades ou melhorias de forma isolada.
+Armazenamento remoto no GitHub ou GitLab para facilitar o trabalho colaborativo.
+
+### Markdown: empregado para elaborar:
+Documentação técnica com estrutura clara (README.md, docs/).
+Registro das tecnologias utilizadas, instruções para execução local, e descrição das tabelas do banco.
+Relatórios intermediários e finais, com formatação leve e visualmente organizada (títulos, listas, tabelas de exemplo, blocos de código SQL).
 
 ## Visualização
 Power BI:
