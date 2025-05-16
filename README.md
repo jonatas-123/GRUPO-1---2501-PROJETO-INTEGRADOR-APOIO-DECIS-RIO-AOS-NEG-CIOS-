@@ -16,7 +16,7 @@ As seguintes tecnologias foram definidas e empregadas:
 
 ## Planilha Excel
 Utilizada como fonte inicial de dados, onde foram feitas as adequações manuais e a normalização preliminar.  
-*Descrição da fonte, conforme sugestão acadêmica e tema do trabalho.*
+* *Descrição da fonte, conforme sugestão acadêmica e tema do trabalho.*
 
 ## MySQL
 Banco de dados relacional escolhido para armazenar os dados estruturados e preparados para análises futuras.  
