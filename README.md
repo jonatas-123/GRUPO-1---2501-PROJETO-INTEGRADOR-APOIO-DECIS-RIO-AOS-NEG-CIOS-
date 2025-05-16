@@ -1,4 +1,13 @@
-# G1 - PI-5. Apoio Decisorio aos Negocios
+# PI-5. Apoio Decisorio aos Negocios
+## Grupo-1
+- Fabiane Yoshie Otani da Silva
+- Fernando Messias da Mata
+- Jonatas de Lima Barros
+- Jorge de Carvalho Cavalcanti
+- Leandro Fragoso Blanco
+- Lucas Barbosa Oliveira
+- Wanderlucio de Almeida da Silva
+
 
 # 3. Definição das Tecnologias
 Nesta etapa, foi realizada a escolha das ferramentas e tecnologias utilizadas para a execução do projeto de **ETL** e análise **OLAP**. As decisões foram guiadas pela natureza dos dados, a complexidade do tratamento necessário e a necessidade de integração com ferramentas analíticas.
