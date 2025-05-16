@@ -1,4 +1,4 @@
-# PI-5, final. Apoio Decisorio aos Negocios
+# PI-5, final. Apoio Decisório aos Negócios
 Grupo 1
 - Fabiane Yoshie Otani da Silva
 - Fernando Messias da Mata
