@@ -30,14 +30,14 @@ Realizar consultas multidimensionais.
 Criar dashboards analíticos.
 Controlar e rastrear o progresso do projeto, facilitando a visualização de padrões e indicadores importantes.
 
-# Navicat
+## Navicat
 Ferramenta gráfica utilizada para gerenciar o banco de dados MySQL de forma prática e visual. 
 
 - Criação das tabelas e inserção de dados.
 - Geração de dois gráficos com o objetivo de testar o gerenciamento de integração entre os dados do banco e a ferramenta.
 Além dessas, outras tecnologias que normalmente são consideradas nesta etapa e podem complementar o projeto incluem:
 
-# Git e Markdown
+## Git e Markdown
 - ! Descrever
 
 # 4. Detalhamento Técnico
