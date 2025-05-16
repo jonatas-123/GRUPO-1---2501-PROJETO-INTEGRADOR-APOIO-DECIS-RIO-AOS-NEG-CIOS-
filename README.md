@@ -8,7 +8,6 @@ Grupo 1
 - Lucas Barbosa Oliveira
 - Wanderlucio de Almeida da Silva
 
-
 # 3. Definição das Tecnologias
 Nesta etapa, foi realizada a escolha das ferramentas e tecnologias utilizadas para a execução do projeto de **ETL** e análise **OLAP**. As decisões foram guiadas pela natureza dos dados, a complexidade do tratamento necessário e a necessidade de integração com ferramentas analíticas.
 
@@ -31,7 +30,7 @@ Criar dashboards analíticos.
 Controlar e rastrear o progresso do projeto, facilitando a visualização de padrões e indicadores importantes.
 
 ## Navicat
-nta gráfica utilizada para gerenciar o banco de dados MySQL de forma prática e visual. 
+Ferramenta gráfica utilizada para gerenciar o banco de dados MySQL de forma prática e visual. 
 
 - Criação das tabelas e inserção de dados.
 - Geração de dois gráficos com o objetivo de testar o gerenciamento de integração entre os dados do banco e a ferramenta.
@@ -49,9 +48,9 @@ Esta etapa tem como objetivo documentar tecnicamente todas as ações e decisõe
 ## Pré-processamento da planilha
 - Normalização da estrutura.
 - Padronização dos nomes das colunas para coincidirem com os nomes das tabelas no MySQL.
-- Inclusão de coluna id como chave primária, com valores sequenciais na planilha e auto-incremento no MySQL.
-- Substituição de células em branco por NULL.
-- Padronização do formato de datas para aaaa-mm-dd.
+- Inclusão de coluna `id` como chave primária, com valores sequenciais na planilha e auto-incremento no MySQL.
+- Substituição de células em branco por `NULL`.
+- Padronização do formato de datas para `YYYY-MM-DD`.
 
 ## Normalização e tratamento dos dados de entrada
 - Padronização dos nomes das colunas para corresponderem às tabelas no MySQL.
