@@ -1,5 +1,5 @@
 # PI-5. Apoio Decisorio aos Negocios
-## Grupo-1
+Grupo 1
 - Fabiane Yoshie Otani da Silva
 - Fernando Messias da Mata
 - Jonatas de Lima Barros
