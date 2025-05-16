@@ -9,7 +9,7 @@ Grupo 1
 - Wanderlucio de Almeida da Silva
 
 
-# - Definição das Tecnologias -
+# xxxxxxxxxxxxxxxxxxxx Definição das Tecnologias xxxxxxxxxxxxxxxxxxxx
 Nesta etapa, foi realizada a escolha das ferramentas e tecnologias utilizadas para a execução do projeto de **ETL** e análise **OLAP**. As decisões foram guiadas pela natureza dos dados, a complexidade do tratamento necessário e a necessidade de integração com ferramentas analíticas.
 
 As seguintes tecnologias foram definidas e empregadas:
@@ -44,7 +44,7 @@ Sistema de controle de versão distribuído, utilizado para registrar o históri
 Linguagem de marcação leve utilizada para documentação técnica do projeto. Sua sintaxe simples permite escrever documentos estruturados como arquivos README, instruções de uso, manuais técnicos e relatórios, mantendo a legibilidade tanto em editores de texto quanto em visualizadores como o GitHub.
 
 
-# - Detalhamento Técnico -
+# xxxxxxxxxxxxxxxxxxxx Detalhamento Técnico xxxxxxxxxxxxxxxxxxxx
 Esta etapa tem como objetivo documentar tecnicamente todas as ações e decisões tomadas durante o desenvolvimento do projeto, facilitando a manutenção, auditoria e entendimento por outros membros da equipe ou stakeholders.
 
 ## Pré-processamento da planilha
