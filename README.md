@@ -43,18 +43,27 @@ Além dessas, outras tecnologias que normalmente são consideradas nesta etapa e
 # 4. Detalhamento Técnico
 Esta etapa tem como objetivo documentar tecnicamente todas as ações e decisões tomadas durante o desenvolvimento do projeto, facilitando a manutenção, auditoria e entendimento por outros membros da equipe ou stakeholders.
 
+## Pré-processamento da planilha
+- Normalização da estrutura.
+- Padronização dos nomes das colunas para coincidirem com os nomes das tabelas no MySQL.
+- Inclusão de coluna id como chave primária, com valores sequenciais na planilha e auto-incremento no MySQL.
+- Substituição de células em branco por NULL.
+- Padronização do formato de datas para aaaa-mm-dd.
+
 ## Normalização e tratamento dos dados de entrada
 - Padronização dos nomes das colunas para corresponderem às tabelas no MySQL.
 - Inserção da coluna `id` na planilha e no banco, garantindo integridade relacional.
 - Tratamento de células em branco, substituindo por `NULL` para compatibilidade com bancos de dados.
 - Formatação uniforme de datas no padrão `YYYY-MM-DD`.
+- Navicat: utilizado para criação de tabelas, gestão do banco e construção de gráficos de teste para validar a integração com os dados do MySQL.
 
 ## Estrutura da base de dados `projeto_integrador`
 - Tabelas criadas com base na estrutura da planilha, mantendo os tipos de dados adequados (ex: `VARCHAR` para textos, `DATE` para datas).
 - Definição de `id` como chave primária com auto-incremento no MySQL.
 - Utilização de comandos SQL como `CREATE TABLE` e `INSERT INTO` com os dados tratados.
 
-## Caminhos possíveis para a próxima etapa
-- **Execução de consultas OLAP**: criação de visões (`views`), uso de cláusulas `GROUP BY`, `ROLLUP`, `CUBE` e `JOIN` para análises multidimensionais.
-- **Criação de dashboards**: conexão do banco MySQL com ferramentas como Power BI ou Tableau para apresentação visual dos dados.
-- **Automatização do processo de ETL**: script em Python ou ferramentas de ETL para automatizar a importação e transformação contínua dos dados.
+## Visualização
+Power BI:
+- Conectado ao banco MySQL para realizar consultas OLAP.
+- Criação de dashboards interativos para análise e visualização dos dados.
+- Acompanhamento do progresso do projeto por meio de indicadores visuais.
