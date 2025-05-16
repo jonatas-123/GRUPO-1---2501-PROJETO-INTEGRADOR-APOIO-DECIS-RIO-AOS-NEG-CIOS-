@@ -1,4 +1,4 @@
-# G1 PI - APOIO DECISorio-RIO-AOS-NEG-CIOS-
+# G1 - PI-5. Apoio Decisorio aos Negocios
 
 # 3. Definição das Tecnologias
 Nesta etapa, foi realizada a escolha das ferramentas e tecnologias utilizadas para a execução do projeto de **ETL** e análise **OLAP**. As decisões foram guiadas pela natureza dos dados, a complexidade do tratamento necessário e a necessidade de integração com ferramentas analíticas.
