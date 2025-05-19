@@ -1,0 +1,70 @@
+DDL:
+
+CREATE DATABASE projeto_integrador;
+USE projeto_integrador;
+CREATE TABLE DadosHIV (
+	id int auto_increment primary key,
+    id_agravo varchar(10),
+    dt_notific date,
+    nu_ano int,
+    id_municip varchar(100),
+    dt_diag date,
+    dt_nasc date,
+    nu_idade int,
+    cs_sexo varchar(20),
+    cs_gestant varchar(30),
+    cs_raca varchar(20),
+    cs_escol varchar (50),
+    id_mn__resid varchar(100),
+    ant_transmi varchar (30),
+    antrelse varchar(50), 
+    ant_drog varchar(20),
+    lab_triag varchar(50),
+    ant_tuberc varchar(20),
+	ant_candid varchar(20),
+	ant_pulmon varchar(20),
+	ant_herpes varchar(20),
+	ant_disfun varchar(20),
+	ant_diarre varchar(20),
+	ant_febre varchar(20),
+	ant_caquex varchar(20),
+	ant_asteri varchar(20),
+	ant_dermat varchar(20),
+	ant_anemia varchar(20),
+	ant_tosse varchar(20), 
+	ant_linfo varchar(20),
+	ant_esof varchar(20),
+	ant_pneumo varchar(20),
+	ant_toxo varchar(20),
+    ant_contag varchar(20),
+	def_diagno varchar(20),
+    dt_obito date,
+    evolucao varchar(20),
+    criterio varchar(20),
+    ant_rel varchar (20)
+    );
+
+
+
+DML
+
+-Filtrar dados no município de Betim
+select * from dadoshiv
+    where id_municip = 'Betim';
+
+-Contar casos onde idade é menor e igual a 18 ocorridas no ano de 2020 e 2021 (No caso indiquei igual ou antes de 2021) Resultou em um total de 228.
+select count(*) FROM dadoshiv
+   where nu_idade <=18
+   and nu_ano <=2021;
+
+Selecionei os casos descritos anteriormente porém apenas no municipio de Betim.
+select * from dadoshiv
+   where nu_idade <=18
+   and nu_ano <=2021
+   and id_municip = 'Betim';
+
+
+
+Analise: Pelo que analisei, está tudo funcionando e integrado.
+Após criar a tabela, para carregar a planilha demora um pouco, estava em contato com o Jorge, levou em torno de 40 minutos para carregar a planilha.
+Devo analisar mais alguns dados junto com o Jorge, mas para dar continuidade nas próximas etapas, esta base está funcionando perfeitamente.
